@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 
 public class FizzBuzz {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -25,6 +24,8 @@ public class FizzBuzz {
                 }
 
         }*/
+
+        scanner.close();
         for (int i = 1; i < userRange + 1; i++){
             String output = "";
             if (i % 3 == 0){

@@ -11,11 +11,11 @@ public class TrainTicket {
         userAge = Integer.parseInt(scanner.nextLine());
         System.out.print("How far would you travel?(km) ");
         distance = Integer.parseInt(scanner.nextLine());
+        scanner.close();
 
         double price;
         double discount;
         double total;
-
 
         if (userAge <= 18){
             price = (double) distance * 0.21;
@@ -32,7 +32,6 @@ public class TrainTicket {
 
         String formattedTotal = new DecimalFormat("#.##").format(total);
         System.out.println("€ " +formattedTotal);
-
 
     }
 }
