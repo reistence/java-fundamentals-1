@@ -12,7 +12,7 @@ public class FizzBuzz {
          userRange = Integer.parseInt(scanner.nextLine());
         } while (userRange == 0 || userRange > 1000);
 
-      /*  for (int i = 1; i < userRange + 1; i++) {
+     /*    for (int i = 1; i < userRange + 1; i++) {
                 if (i % 3 == 0 && i % 5 == 0) {
                     System.out.println("FizzBuzz");
                 } else if (i % 3 == 0) {
@@ -23,7 +23,7 @@ public class FizzBuzz {
                     System.out.println(i);
                 }
 
-        }*/
+        }   */
 
         scanner.close();
         for (int i = 1; i < userRange + 1; i++){
